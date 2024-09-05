@@ -1,0 +1,87 @@
+[33mcommit f80cf1272dcc8d31f5df5f98140bf112a5008e8e[m[33m ([m[1;36mHEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Uricaryn <onuranatca@hotmail.com.tr>
+Date:   Wed Sep 4 00:17:13 2024 +0300
+
+    Revert "Commiting"
+    
+    This reverts commit 79a762b7f16bb46c00684c77c49fe9222dedb562.
+
+[33mcommit 7f3bc27c5ce357496830734237e73e0df7b64614[m
+Author: Uricaryn <onuranatca@hotmail.com.tr>
+Date:   Wed Sep 4 00:16:15 2024 +0300
+
+    Revert "committing"
+    
+    This reverts commit 117c0a94019512a4b5050e47b5300ae05f89526c.
+
+[33mcommit 117c0a94019512a4b5050e47b5300ae05f89526c[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Uricaryn <onuranatca@hotmail.com.tr>
+Date:   Wed Sep 4 00:10:26 2024 +0300
+
+    committing
+
+[33mcommit 79a762b7f16bb46c00684c77c49fe9222dedb562[m
+Author: Uricaryn <onuranatca@hotmail.com.tr>
+Date:   Wed Sep 4 00:10:16 2024 +0300
+
+    Commiting
+
+[33mcommit 181840588a2c17a70b1c70e3366e25c1ee4458b7[m
+Author: Onur Anatça <103079831+Uricaryn@users.noreply.github.com>
+Date:   Mon Jun 3 16:15:03 2024 +0300
+
+    Create dotnet.yml
+
+[33mcommit dac7f204fdbac45916cc499e70ca4bf4b7620c4a[m
+Author: Onur Anatça <103079831+Uricaryn@users.noreply.github.com>
+Date:   Mon Jun 3 16:02:59 2024 +0300
+
+    Delete Sınav.rar
+
+[33mcommit 2e26c3dd5c439bea26399f5d6e1fd09755376d04[m
+Author: Onur Anatça <103079831+Uricaryn@users.noreply.github.com>
+Date:   Mon Jun 3 16:02:39 2024 +0300
+
+    Delete Library.txt
+
+[33mcommit c0c300fd9d74a47a824bd04afbbe2db9d99f25e7[m
+Author: Onur Anatça <103079831+Uricaryn@users.noreply.github.com>
+Date:   Mon Jun 3 16:02:30 2024 +0300
+
+    Create LibraryProject.md
+
+[33mcommit d274fc7a36568dfeef454fb8012fca7f6282a23a[m
+Author: Onur Anatça <103079831+Uricaryn@users.noreply.github.com>
+Date:   Mon Jun 3 16:00:29 2024 +0300
+
+    Create PayrollProject.md
+
+[33mcommit f075c7f0b52d0ce8aea90bc5053cdb7ad37afbb8[m
+Author: Onur Anatça <103079831+Uricaryn@users.noreply.github.com>
+Date:   Mon Jun 3 15:59:03 2024 +0300
+
+    Delete Payroll.txt
+
+[33mcommit 4cea9fe6909428ac377e98bbcb71d9f0578eb23d[m
+Author: Onur Anatça <103079831+Uricaryn@users.noreply.github.com>
+Date:   Mon Jun 3 15:58:20 2024 +0300
+
+    Delete LibraryProject.md
+
+[33mcommit 0b57f42c92adce6a8011e7b750f846d047238fd6[m
+Author: Onur Anatça <103079831+Uricaryn@users.noreply.github.com>
+Date:   Mon Jun 3 15:56:22 2024 +0300
+
+    Create LibraryProject.md
+
+[33mcommit cc61464aaac10c261ec6b2168c6ecdc3caed4007[m
+Author: Uricaryn <Uricaryn@DESKTOP-M89NHFE>
+Date:   Mon Jun 3 15:53:04 2024 +0300
+
+    Add project files.
+
+[33mcommit d41f90e7f5ede335b7cb83b4d0125813d5feda51[m
+Author: Uricaryn <Uricaryn@DESKTOP-M89NHFE>
+Date:   Mon Jun 3 15:53:03 2024 +0300
+
+    Add .gitattributes and .gitignore.

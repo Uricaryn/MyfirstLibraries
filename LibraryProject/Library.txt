@@ -1,0 +1,59 @@
+## Proje Yapýsý
+
+Proje altý ana sýnýftan oluþmaktadýr:
+1. Kitap (Abstract Class)
+2. Durum (Enum)
+3. KitapBilim, KitapRoman, KitapTarih (Sub Classes)
+4. IUye (Interface)
+5. Uye (Class)
+6. Kutuphane (Class)
+
+### 1. Kitap (Abstract Class)
+- Kitaplarýn temel özelliklerini (ISBN, baþlýk, yazar, yayýn yýlý vb.) içerir.
+- Diðer kitap türleri için temel (base class) görevi görür.
+- Mevcut durumunu (ödünç alýnabilir, ödünçte, mevcut deðil) tutar.
+
+### 2. Durum (Enum)
+- Kitap sýnýfý içerisinde kullanmak üzere kitaplarýn ödünç durumunu belirtir.
+- Deðerler: OduncAlabilir, OduncVerildi, MevcutDegil
+
+### 3. KitapBilim, KitapRoman, KitapTarih (Sub Classes)
+- Kitap sýnýfýndan kalýtým alarak kütüphanedeki kitap türlerini temsil eder.
+
+### 4. IUye (Interface)
+- Uye class'ýnýn özelliklerini ve metotlarýný belirten bir arayüz saðlar.
+- Özellikler: Ad, Soyad, Üye Numarasý, Ödünç Alýnan Kitaplarýn Listesi
+- Metotlar: KitapOduncAl, KitapIadeEt, OduncAlinanKitaplariGoruntule
+
+### 5. Uye (Class)
+- IUye interface'ini implement eder.
+- Kütüphaneye üye olan kiþilerin özelliklerini ve metotlarýný içerir.
+
+### 6. Kutuphane (Class)
+- Kitaplarý ve üyeleri yöneten ana sýnýftýr.
+- Kitaplarýn ödünç verilmesi, iade edilmesi ve mevcut durumunun güncellenmesi gibi iþlemleri yapar.
+
+## Adým Adým Proje Oluþturma
+
+### 1. Adým: Proje Oluþturma
+- Yeni bir Class Library projesi oluþturulur.
+- Projeye `LibraryProject` adý verilir.
+
+### 2. Adým: Temel Sýnýflarý ve Yapýlarý Tanýmlama
+
+#### Kitap Sýnýfý ve Durum Enum'u
+- Kitaplarýn temel özelliklerini içeren bir abstract sýnýf oluþtulur.
+- Kitaplarýn mevcut durumunu belirtmek için bir enum tanýmlanýr.
+
+#### Kitap Türleri Sýnýflarý
+- Kitap sýnýfýndan kalýtým alarak kütüphanedeki kitap türlerini temsil eden alt sýnýflar oluþturulur (KitapBilim, KitapRoman, KitapTarih).
+
+#### IUye Arayüzü
+- Üye sýnýfýnýn özelliklerini ve metotlarýný belirten bir interface tanýmlanýr.
+
+#### Uye Sýnýfý
+- IUye interface'ini implement eden ve kütüphaneye üye olan kiþilerin özelliklerini ve metotlarýný içeren bir sýnýf oluþturulur.
+
+#### Kutuphane Sýnýfý
+- Kitaplarý ve üyeleri yöneten ana sýnýfý oluþturulur.
+- Kitaplarýn ödünç verilmesi, iade edilmesi ve mevcut durumunun güncellenmesi gibi iþlemleri yapacak metotlar eklenir.

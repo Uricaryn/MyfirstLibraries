@@ -1,0 +1,52 @@
+## Proje Yapýsý
+
+Proje altý ana sýnýftan oluþmaktadýr:
+1. IPersonel (Arayüz)
+2. Yonetici (Sýnýf)
+3. Memur (Sýnýf)
+4. Payroll (Sýnýf)
+5. ReadFile (Sýnýf)
+
+### 1. IPersonel (Arayüz)
+- Personel sýnýflarýnýn sahip olmasý gereken özellikleri ve maaþ hesaplama metodlarýný tanýmlar.
+
+### 2. Yonetici (Sýnýf)
+- IPersonel arayüzünü uygular.
+- Yöneticilerin özelliklerini ve maaþ hesaplama metodlarýný içerir.
+
+### 3. Memur (Sýnýf)
+- IPersonel arayüzünü uygular.
+- Memurlarýn özelliklerini ve maaþ hesaplama metodlarýný içerir.
+
+### 4. Payroll (Sýnýf)
+- Personel listesinin maaþlarýný hesaplayan ve dosyaya kaydeden iþlevselliði içerir.
+- MaaslariHesaplaVeKaydet ve AzCalisanlariRaporla olmak üzere iki metodu bulunur.
+
+### 5. ReadFile (Sýnýf)
+- JSON formatýndaki verileri bir dosyaya yazmak ve bir dosyadan okumak için kullanýlan iþlevselliði içerir.
+- JsonDosyayaYaz ve JsonDosyadanOku olmak üzere iki metodu bulunur.
+
+## Adým Adým Proje Oluþturma
+
+### 1. Adým: Proje Oluþturma
+- Yeni bir Class Library projesi oluþturulur.
+- Projeye `LibraryProject` adý verilir.
+
+### 2. Adým: Temel Sýnýflarý ve Yapýlarý Tanýmlama
+
+#### IPersonel Arayüzü
+- Personel sýnýflarýnýn özelliklerini ve maaþ hesaplama metodlarýný belirten bir arayüz saðlar.
+
+#### Yonetici Sýnýfý
+- IPersonel arayüzünü implement eder.
+- Yöneticilerin özelliklerini ve maaþ hesaplama metodlarýný içerir.
+
+#### Memur Sýnýfý
+- IPersonel arayüzünü implement eder.
+- Memurlarýn özelliklerini ve maaþ hesaplama metodlarýný içerir.
+
+#### Payroll Sýnýfý
+- Personel listesinin maaþlarýný hesaplayan ve dosyaya kaydeden iþlevselliði içerir.
+
+#### ReadFile Sýnýfý
+- JSON formatýndaki verileri bir dosyaya yazmak ve bir dosyadan okumak için kullanýlan iþlevselliði içerir.

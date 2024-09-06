@@ -32,10 +32,7 @@ The Sınav Project is designed as an application using Object-Oriented Programmi
 
 ## Technologies and Libraries
 - **C#**: The main programming language of the project.
-- **ASP.NET Core MVC**: Framework used for the backend application structure.
 - **Entity Framework Core**: ORM used for database operations.
-- **Windows Forms**: Used for the graphical user interface (GUI) of the application.
-- **SQL Server**: Database management system.
 
 ## Contributing
 1. Fork the project.
